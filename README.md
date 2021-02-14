@@ -1,2 +1,1 @@
-# data-engineering-book
-The Data Engineering Book
+# The Data Engineering Book
