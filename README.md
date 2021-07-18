@@ -1,5 +1,7 @@
 # The Data Engineering Book
 
+หนังสือ Data Engineering เพื่อ Data Engineer ชาวไทย 😎 (สายงานอื่นก็อ่านได้นะ)
+
 ## Contents
 
 * [Introduction](sections/introduction.md)
