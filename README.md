@@ -5,7 +5,7 @@
 ## Contents
 
 * [Introduction](sections/01-introduction.md)
-* [Who is Data Engineer?](sections/02-who-is-data-engineer)
+* [Who is Data Engineer?](sections/02-who-is-data-engineer.md)
 * [Tools](sections/03-tools.md)
 
 ## How To Contribute
