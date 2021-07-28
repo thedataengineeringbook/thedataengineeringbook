@@ -5,10 +5,10 @@
 ตอนที่เราสร้าง Data Pipeline เรามักจะเจอความท้าทายหลักๆ ประมาณ​ 5 อย่างนี้
 
 1. [Schema เปลี่ยนแปลงอยู่ตลอดเวลา](#1-schema-เปลี่ยนแปลงอยู่ตลอด)
-1. [Machine Failure เป็นเรื่องปกติ](2-machine-failure-เป็นเรื่องปกติ)
-1. [การ Scale เพื่อรองรับข้อมูลที่มีขนาดใหญ่ขึ้นเรื่อยๆ](3-การ-scale-เพื่อรองรับข้อมูลที่มีขนาดใหญ่ขึ้นเรื่อยๆ)
-1. [Batch vs. Real-Time](4-batch-vs-real-time)
-1. [การทำ Data Catalog และ Data Lineage](5-การทำ-data-catalog-และ-data-lineage)
+1. [Machine Failure เป็นเรื่องปกติ](#2-machine-failure-เป็นเรื่องปกติ)
+1. [การ Scale เพื่อรองรับข้อมูลที่มีขนาดใหญ่ขึ้นเรื่อยๆ](#3-การ-scale-เพื่อรองรับข้อมูลที่มีขนาดใหญ่ขึ้นเรื่อยๆ)
+1. [Batch vs. Real-Time](#4-batch-vs-real-time)
+1. [การทำ Data Catalog และ Data Lineage](#5-การทำ-data-catalog-และ-data-lineage)
 
 #### 1. Schema เปลี่ยนแปลงอยู่ตลอด
 
