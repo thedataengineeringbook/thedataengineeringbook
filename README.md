@@ -6,7 +6,8 @@
 
 * [Introduction](sections/01-introduction.md)
 * [Who is Data Engineer?](sections/02-who-is-data-engineer.md)
-* [Tools](sections/03-tools.md)
+* [Data Pipelines](sections/03-data-pipelines.md)
+* [Tools](sections/04-tools.md)
 
 ## How To Contribute
 
