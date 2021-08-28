@@ -26,9 +26,17 @@ https://www.getdbt.com/
 * [เริ่มต้นกับ dbt](https://zkan.hashnode.dev/get-started-with-dbt)
 * [การจัดการโมเดลใน dbt และการทดสอบ](https://zkan.hashnode.dev/dbt-models-and-tests)
 
+### Debezium
+
+https://debezium.io/
+
 ### Druid
 
 https://druid.apache.org/
+
+### Kafka
+
+https://kafka.apache.org/
 
 ### Marquez
 
