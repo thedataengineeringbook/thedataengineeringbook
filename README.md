@@ -10,6 +10,10 @@
 * [Data Validation in Pipelines](sections/04-data-validation-in-pipelines.md)
 * [Tools](sections/05-tools.md)
 
+## Contributing
+
+อยากช่วยเขียน? ยินดีมาก! ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)
+
 ## Thai Glossary
 
 http://glossary.in.th/

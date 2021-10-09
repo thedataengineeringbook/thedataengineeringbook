@@ -1,8 +1,8 @@
 # Contributing to Data Engineering Book
 
-สามารถสร้าง [Issue](https://github.com/zkan/data-engineering-book/issues) หรือเปิด [Pull Request (PR)](https://github.com/zkan/data-engineering-book/pulls) ตามขั้นตอนด้านล่างนี้มาได้เลย
+สามารถสร้าง [Issue](https://github.com/zkan/data-engineering-book/issues) หรือเปิด [Pull Request (PR)](https://github.com/zkan/data-engineering-book/pulls) ตามขั้นตอนด้านล่างนี้ได้เลย
 
-## ขั้นตอน Contribution
+## ขั้นตอนการเปิด Pull Request (PR)
 
 1. Fork it (yourname/yourproject/fork)
 1. สร้าง Branch ของตัวเอง (`git checkout -b feature/something`)
