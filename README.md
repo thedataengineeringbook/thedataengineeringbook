@@ -10,10 +10,6 @@
 * [Data Validation in Pipelines](sections/04-data-validation-in-pipelines.md)
 * [Tools](sections/05-tools.md)
 
-## How To Contribute
-
-สามารถสร้าง [Issue](https://github.com/zkan/data-engineering-book/issues) หรือเปิด [Pull Request (PR)](https://github.com/zkan/data-engineering-book/pulls) มาได้เลยครับ 😉
-
 ## Thai Glossary
 
 http://glossary.in.th/
