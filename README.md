@@ -11,6 +11,20 @@
 * [Data Engineering Practices](sections/05-data-engineering-practices.md)
 * [Tools](sections/06-tools.md)
 
+## Creating PDF with Pandoc
+
+ติดตั้ง Pandoc บนเครื่อง Mac
+
+```sh
+brew install pandoc
+```
+
+สร้างไฟล์ PDF โดยใช้คำสั่งตามนี้
+
+```sh
+pandoc --pdf-engine=xelatex -V 'mainfont:Thonburi' sections/*.md -s -o data-engineering-book.pdf
+```
+
 ## Contributing
 
 อยากช่วยเขียน? ยินดีมาก! ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)
