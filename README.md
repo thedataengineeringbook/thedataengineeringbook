@@ -8,7 +8,8 @@
 * [Who is Data Engineer?](sections/02-who-is-data-engineer.md)
 * [Data Pipelines](sections/03-data-pipelines.md)
 * [Data Validation in Pipelines](sections/04-data-validation-in-pipelines.md)
-* [Tools](sections/05-tools.md)
+* [Data Engineering Practices](sections/05-data-engineering-practices.md)
+* [Tools](sections/06-tools.md)
 
 ## Contributing
 
