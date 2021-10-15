@@ -5,7 +5,7 @@
 ## Contents
 
 * [Introduction](sections/01-introduction.md)
-* [Data Engineer?](sections/02-data-engineer.md)
+* [Data Engineer](sections/02-data-engineer.md)
 * [Data Pipelines](sections/03-data-pipelines.md)
 * [Data Validation in Pipelines](sections/04-data-validation-in-pipelines.md)
 * [Data Engineering Practices](sections/05-data-engineering-practices.md)
