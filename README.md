@@ -7,10 +7,11 @@
 * [Introduction](sections/01-introduction.md)
 * [Data Engineer](sections/02-data-engineer.md)
 * [Data Engineering Roadmap](sections/03-data-engineering-roadmap.md)
-* [Data Pipelines](sections/04-data-pipelines.md)
-* [Data Validation in Pipelines](sections/05-data-validation-in-pipelines.md)
-* [Data Engineering Practices](sections/06-data-engineering-practices.md)
-* [Tools](sections/07-tools.md)
+* [Data Engineering Practices](sections/04-data-engineering-practices.md)
+* [Data Pipelines](sections/05-data-pipelines.md)
+* [Data Validation in Pipelines](sections/06-data-validation-in-pipelines.md)
+* [Maintenance of Data Pipelines](sections/07-maintenance-of-data-pipelines.md)
+* [Tools](sections/08-tools.md)
 
 ## Creating PDF with Pandoc
 
