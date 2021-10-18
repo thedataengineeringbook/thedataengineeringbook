@@ -12,6 +12,7 @@
 * [Data Validation in Pipelines](sections/06-data-validation-in-pipelines.md)
 * [Maintenance of Data Pipelines](sections/07-maintenance-of-data-pipelines.md)
 * [Tools](sections/08-tools.md)
+* [อภิธานศัพท์](sections/glossary.md)
 
 ## Creating PDF with Pandoc
 
@@ -27,14 +28,14 @@ brew install pandoc
 pandoc --pdf-engine=xelatex -V 'mainfont:Thonburi' sections/*.md -s -o data-engineering-book.pdf
 ```
 
-## Contributing
+## อยากช่วยเขียน?
 
-อยากช่วยเขียน? ยินดีมาก! ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)
+ยินดีมากเลย ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)
 
-## Thai Glossary
+## อ้างอิง
 
-http://glossary.in.th/
+* [Thai Glossary](http://glossary.in.th/)
 
-## Support
+## อยากเลี้ยงกาแฟ? ☕️
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/zkan)
