@@ -21,7 +21,7 @@
 ```sh
 brew install pandoc
 ```
-ติดตั้ง Pandoc โดยใช้การ npm
+ติดตั้ง Pandoc โดยการใช้ npm
 ```sh
 npm i pandoc
 ```
