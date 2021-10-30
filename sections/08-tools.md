@@ -71,10 +71,16 @@ https://rapidminer.com/
 
 https://aws.amazon.com/s3/
 
+AWS S3 หรือ Amazon Simple Storage Service เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Amazon Web Services (AWS) เหมาะกับการใช้งานที่หลากหลาย เช่น จัดเก็บข้อมูลดิบ เว็บไซต์ แอปพลิเคชันมือถือ การสำรองข้อมูลและการคืนค่า การเก็บข้อมูลแบบถาวร รวมทั้งการวิเคราะห์ Big Data
+
 ## Azure Blob Storage
 
 https://azure.microsoft.com/services/storage/blobs
 
+Azure Blob Storage เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Microsoft Azure ที่เหมาะสำหรับ Unstructured data โดยเฉพาะ
+
 ## Google Cloud Storage
 
 https://cloud.google.com/storage
+
+Google Cloud Storage เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Google Cloud ที่สามารถเลือกภูมิภาค (region) ในการจัดเก็บไฟล์ได้หลากหลาย ซี่งช่วยให้การรับส่งไฟล์มีความหน่วงน้อย (low latency)
