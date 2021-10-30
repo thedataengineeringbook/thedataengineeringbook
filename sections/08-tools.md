@@ -45,6 +45,12 @@ https://druid.apache.org/
 
 https://kafka.apache.org/
 
+## Logstash
+
+https://www.elastic.co/logstash/
+
+Logstash คือ โอเพ่นซอร์สสำหรับงานประมวลผลข้อมูลฝั่งเซิร์ฟเวอร์ ที่สามารถนำเข้าข้อมูลจากแหล่งต่าง ๆ พร้อมกับแปลงข้อมูลให้อยู่ในรูปแบบที่ต้องการได้
+
 ## Marquez
 
 https://marquezproject.github.io/marquez/
