@@ -66,3 +66,15 @@ https://superset.apache.org/
 ## RapidMiner
 
 https://rapidminer.com/
+
+## AWS S3
+
+https://aws.amazon.com/s3/
+
+## Azure Blob Storage
+
+https://azure.microsoft.com/services/storage/blobs
+
+## Google Cloud Storage
+
+https://cloud.google.com/storage
