@@ -21,6 +21,10 @@
 ```sh
 brew install pandoc
 ```
+ติดตั้ง Pandoc โดยใช้การ npm
+```sh
+npm i pandoc
+```
 
 สร้างไฟล์ PDF โดยใช้คำสั่งตามนี้
 
