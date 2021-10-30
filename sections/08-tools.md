@@ -56,3 +56,7 @@ https://pulsar.apache.org/
 ## Superset
 
 https://superset.apache.org/
+
+## RapidMiner
+
+https://rapidminer.com/
