@@ -37,6 +37,18 @@ https://azure.microsoft.com/services/storage/blobs
 
 Azure Blob Storage เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Microsoft Azure ที่เหมาะสำหรับ Unstructured data โดยเฉพาะ
 
+## Dataprep
+
+https://cloud.google.com/dataprep
+
+Dataprep คือ serverless service สำหรับการจัดการ Data ของทาง Google Cloud โดยที่เราไม่จำเป็นต้องเขียน Code ซึ่งสามารถใช้งานผ่าน Web Browser ได้ รองรับการทำงานกับ Data หลากหลายแบบ เช่น Clensing, Preparing Transform จนถึงการสร้าง Data Pipeline แบบครบวงจร
+
+## Data Studio 
+
+https://datastudio.google.com/
+
+เป็นเครื่องมือสำหรับสร้าง Dashboard ของทาง Google สามารถสร้างและใช้งานผ่าน Web Browser ได้ โดยสามารถแสดงข้อมูลในรูปแบบ Chart, Table, Maps และอื่น ๆ รวมถึงรองรับการเชื่อมต่อกับ service ภายนอกเช่น BigQuery, Dataprep, Google Analytics, Google Cloud Storage
+
 ## dbt
 
 https://www.getdbt.com/
