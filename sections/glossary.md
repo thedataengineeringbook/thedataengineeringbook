@@ -8,3 +8,4 @@
 | --- | ----------- |
 | Data Engineer | วิศวกรข้อมูล |
 | Data Engineering | วิศวกรรมข้อมูล |
+| Data Pipeline | ดาต้าไปป์ไลน์ |
