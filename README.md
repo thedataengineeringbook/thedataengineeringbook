@@ -25,6 +25,10 @@ brew install pandoc
 ```sh
 npm i pandoc
 ```
+ติดตั้ง Pandoc บนเครื่อง Windows ด้วย winget
+```
+winget install -e JohnMacFarlane.Pandoc
+```
 
 สร้างไฟล์ PDF โดยใช้คำสั่งตามนี้
 
