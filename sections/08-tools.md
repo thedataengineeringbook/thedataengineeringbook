@@ -47,7 +47,7 @@ Dataprep คือ serverless service สำหรับการจัดกา
 
 https://datastudio.google.com/
 
-เป็นเครื่องมือสำหรับสร้าง Dashboard ของทาง Google สามารถสร้างและใช้งานผ่าน Web Browser ได้ โดยสามารถแสดงข้อมูลในรูปแบบ Chart, Table, Maps และอื่น ๆ รวมถึงรองรับการเชื่อมต่อกับ service ภายนอกเช่น BigQuery, Dataprep, Google Analytics, Google Cloud Storage
+Data Studio คือเครื่องมือสำหรับสร้าง Dashboard ของทาง Google สามารถสร้างและใช้งานผ่าน Web Browser ได้ โดยสามารถแสดงข้อมูลในรูปแบบ Chart, Table, Maps และอื่น ๆ รวมถึงรองรับการเชื่อมต่อกับ service ภายนอกเช่น BigQuery, Dataprep, Google Analytics, Google Cloud Storage เป็นต้น
 
 ## dbt
 
