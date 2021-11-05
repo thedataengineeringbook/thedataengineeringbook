@@ -32,7 +32,7 @@
 | Database                 | ฐานข้อมูล                                                       |
 | Deterministic            | ซึ่งถูกกำหนดไว้แล้ว                                                |
 | Disk                     | ดิสก์                                                           |
-| Distributed Systems      | ระบบกระจายศูนย์, ระบบแบบกระจาย                                  |
+| Distributed System       | ระบบกระจายศูนย์, ระบบแบบกระจาย                                  |
 | DNS (Domain Name System) | ระบบการตั้งชื่อโดเมน, ดีเอ็นเอส                                     |
 | Engineer                 | วิศวกร                                                         |
 | Engineering              | วิศวกรรม                                                       |
