@@ -61,11 +61,11 @@
 | Security                 | ความมั่นคง, ความปลอดภัย                                          |
 | Shared Storage           | ที่เก็บข้อมูลที่ใช้ร่วมกัน                                              |
 | Software Engineering     | วิศวกรรมซอฟต์แวร์                                                |
-| System-Generated Data    | ข้อมูลที่สร้างโดยระบบ                                              |
+| System-Generated Data    | ข้อมูลที่ถูกสร้างโดยระบบ                                           |
 | Technology               | เทคโนโลยี, วิทยาการผลิต                                          |
 | Tool                     | เครื่องมือ                                                       |
 | Transform                | แปลง, เปลี่ยนแปลง                                               |
 | Unstructured Data        | ข้อมูลที่ไม่มีโครงสร้าง                                              |
-| User-Generated Data      | ข้อมูลที่สร้างโดยผู้ใช้                                               |
+| User-Generated Data      | ข้อมูลที่ถูกสร้างโดยผู้ใช้                                            |
 | Visualization            | วิชวลไลเซชัน, การแสดงภาพนามธรรม                                 |
 | Workflow                 | กระแสงาน, ขั้นตอนการทำงาน                                       |
