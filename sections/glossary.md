@@ -30,7 +30,7 @@
 | Data Validation          | การสอบทวนข้อมูล                                                 |
 | Data Warehouse           | คลังข้อมูล, ฐานข้อมูลขนาดยักษ์                                       |
 | Database                 | ฐานข้อมูล                                                       |
-| Deterministic            | ซึ่งถูกกำหนดไว้แล้ว                                                |
+| Deterministic            | นิยัติ, ซึ่งถูกกำหนดไว้แล้ว                                        |
 | Disk                     | ดิสก์                                                           |
 | Distributed System       | ระบบกระจายศูนย์, ระบบแบบกระจาย                                  |
 | DNS (Domain Name System) | ระบบการตั้งชื่อโดเมน, ดีเอ็นเอส                                     |
