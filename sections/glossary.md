@@ -19,7 +19,9 @@
 | Data Engineer            | วิศวกรข้อมูล                                                     |
 | Data Engineering         | วิศวกรรมข้อมูล                                                   |
 | Data Governance          | ธรรมาภิบาลข้อมูล, การกำกับดูแลข้อมูล                                 |
-| Data Ingestion           | การนำข้อมูลเข้า                                                  |
+| Data Infrastructure      | โครงสร้างพื้นฐานข้อมูล                                             |
+| Data Ingestion           | การนำเข้าข้อมูล                                                 |
+| Data Integration         | การรวมกันของข้อมูล                                               |
 | Data Lake                | ทะเลสาบข้อมูล, ดาต้าเลค                                          |
 | Data Lineage             | สายสกุลข้อมูล, การติดตามการใช้งานข้อมูล                              |
 | Data Pipeline            | ดาต้าไปป์ไลน์, สายท่อข้อมูล                                         |
