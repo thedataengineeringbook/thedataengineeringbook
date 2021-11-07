@@ -20,7 +20,7 @@
 | Data Engineering         | วิศวกรรมข้อมูล                                                   |
 | Data Governance          | ธรรมาภิบาลข้อมูล, การกำกับดูแลข้อมูล                                 |
 | Data Infrastructure      | โครงสร้างพื้นฐานข้อมูล                                             |
-| Data Ingestion           | การนำข้อมูลเข้า                                                  |
+| Data Ingestion           | การนำเข้าข้อมูล                                                  |
 | Data Integration         | การรวมกันของข้อมูล                                               |
 | Data Lake                | ทะเลสาบข้อมูล, ดาต้าเลค                                          |
 | Data Lineage             | สายสกุลข้อมูล, การติดตามการใช้งานข้อมูล                              |
