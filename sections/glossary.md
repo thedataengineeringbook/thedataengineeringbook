@@ -11,7 +11,7 @@
 | Business Intelligence    | ระบบธุรกิจอัจฉริยะ                                                |
 | Cloud                    | คลาวด์                                                         |
 | Curse of Knowledge       | คำสาปทางความรู้ (อคติทางความคิด)                                  |
-| Dashboard                | แผงควบคุม                                                      |
+| Dashboard                | แผงควบคุม, แดชบอร์ด                                             |
 | Data                     | ข้อมูล                                                          |
 | Data Analytics           | วิทยาการวิเคราะห์ข้อมูล                                            |
 | Data Catalog             | บัญชีข้อมูล                                                       |
