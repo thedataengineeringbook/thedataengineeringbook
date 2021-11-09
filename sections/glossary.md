@@ -10,7 +10,7 @@
 | Big Data                 | ข้อมูลขนาดใหญ่, ข้อมูลหลากหลายปริมาณมหาศาลที่เพิ่มขึ้นอย่างรวดเร็ว, ข้อมูลมหัต |
 | Business Intelligence    | ระบบธุรกิจอัจฉริยะ                                                |
 | Cloud                    | คลาวด์                                                         |
-| Curse of Knowledge       | คำสาปแห่งความรู้ (อคติทางความคิด)                                  |
+| Curse of Knowledge       | คำสาปทางความรู้ (อคติทางความคิด)                                  |
 | Dashboard                | แผงควบคุม, แดชบอร์ด                                             |
 | Data                     | ข้อมูล                                                          |
 | Data Analytics           | วิทยาการวิเคราะห์ข้อมูล                                            |
@@ -18,6 +18,7 @@
 | Data Cleansing           | การทำความสะอาดข้อมูล                                            |
 | Data Engineer            | วิศวกรข้อมูล                                                     |
 | Data Engineering         | วิศวกรรมข้อมูล                                                   |
+| Data Extraction          | การสกัดข้อมูล, การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ                         |
 | Data Governance          | ธรรมาภิบาลข้อมูล, การกำกับดูแลข้อมูล                                 |
 | Data Infrastructure      | โครงสร้างพื้นฐานข้อมูล                                             |
 | Data Ingestion           | การนำเข้าข้อมูล                                                  |
@@ -35,10 +36,9 @@
 | Deterministic            | นิยัติ, ซึ่งถูกกำหนดไว้แล้ว                                           |
 | Disk                     | ดิสก์                                                           |
 | Distributed System       | ระบบกระจายศูนย์, ระบบแบบกระจาย                                  |
-| DNS (Domain Name System) | ระบบการตั้งชื่อโดเมน, ดีเอ็นเอส                                     |
+| Domain Name System (DNS) | ระบบการตั้งชื่อโดเมน (ดีเอ็นเอส)                                    |
 | Engineer                 | วิศวกร                                                         |
 | Engineering              | วิศวกรรม                                                       |
-| Extracting Data          | การสกัดข้อมูล, การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ                         |
 | Framework                | กรอบงาน, ขอบข่ายงาน                                            |
 | Hardware                 | ฮาร์ดแวร์, ส่วนเครื่อง, ส่วนอุปกรณ์                                   |
 | Idempotent               | นิจพล                                                          |
