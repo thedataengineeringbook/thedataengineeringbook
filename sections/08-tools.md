@@ -109,6 +109,10 @@ https://pulsar.apache.org/
 
 https://rapidminer.com/
 
+## Snowflake
+
+https://www.snowflake.com/
+
 ## Spark
 
 https://spark.apache.org/
