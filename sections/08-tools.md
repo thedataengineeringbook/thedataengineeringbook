@@ -71,6 +71,12 @@ https://cloud.google.com/storage
 
 Google Cloud Storage เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Google Cloud ที่สามารถเลือกภูมิภาค (region) ในการจัดเก็บไฟล์ได้หลากหลาย ซี่งช่วยให้การรับส่งไฟล์มีความหน่วงน้อย (low latency)
 
+## Great Expectations
+
+https://greatexpectations.io/
+
+Great Expectations เป็นเครื่องมือที่ช่วยให้เราดูแลรักษาคุณภาพของข้อมูล (data quality) ไว้ โดยผ่านฟังก์ชั่นการทำงานที่เข้าใจได้ง่าย อย่างเช่น `expect_table_row_count_to_be_between` ที่เอาไว้ตรวจสอบจำนวนแถวของตารางว่าควรจะมีจำนวนแถวอยู่ระหว่างเท่าไหร่ถึงเท่าไหร่เป็นต้น
+
 ## Kafka
 
 https://kafka.apache.org/
@@ -99,10 +105,21 @@ https://www.orchest.io/
 
 https://pulsar.apache.org/
 
-
 ## RapidMiner
 
 https://rapidminer.com/
+
+## Snowflake
+
+https://www.snowflake.com/
+
+## Spark
+
+https://spark.apache.org/
+
+Spark หรือ Apache Spark เป็นเครื่องมือที่เราจะเอาไว้ประมวลผลข้อมูลขนาดใหญ่ หรือสร้างโมลเดล Machine Learning จากข้อมูลขนาดใหญ่ โดยที่เราสามารถนำเอาไปใช้กับ batch processing หรือ real-time processing ก็ได้
+
+เครื่องมือตัวนี้แทบจะเป็นตัวเลือกในอันดับต้นๆ เลยก็ว่าได้ที่เอามาใช้ในการประมวลผลข้อมูลขนาดใหญ่ ตอนที่ประมวลผล Spark จะประมวลผลแบบ in-memory ทำให้การประมวลผลนั้นทำได้รวดเร็วมาก เมื่อเทียบกับ Hadoop MapReduce ที่ใช้การอ่านเขียนข้อมูลที่เป็นไฟล์จาก disk
 
 ## Superset
 
