@@ -109,6 +109,14 @@ https://pulsar.apache.org/
 
 https://rapidminer.com/
 
+## Spark
+
+https://spark.apache.org/
+
+Spark หรือ Apache Spark เป็นเครื่องมือที่เราจะเอาไว้ประมวลผลข้อมูลขนาดใหญ่ หรือสร้างโมลเดล Machine Learning จากข้อมูลขนาดใหญ่ โดยที่เราสามารถนำเอาไปใช้กับ batch processing หรือ real-time processing ก็ได้
+
+เครื่องมือตัวนี้แทบจะเป็นตัวเลือกในอันดับต้นๆ เลยก็ว่าได้ที่เอามาใช้ในการประมวลผลข้อมูลขนาดใหญ่ ตอนที่ประมวลผล Spark จะประมวลผลแบบ in-memory ทำให้การประมวลผลนั้นทำได้รวดเร็วมาก เมื่อเทียบกับ Hadoop MapReduce ที่ใช้การอ่านเขียนข้อมูลที่เป็นไฟล์จาก disk
+
 ## Superset
 
 https://superset.apache.org/
