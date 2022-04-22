@@ -121,6 +121,12 @@ Spark หรือ Apache Spark เป็นเครื่องมือที
 
 เครื่องมือตัวนี้แทบจะเป็นตัวเลือกในอันดับต้นๆ เลยก็ว่าได้ที่เอามาใช้ในการประมวลผลข้อมูลขนาดใหญ่ ตอนที่ประมวลผล Spark จะประมวลผลแบบ in-memory ทำให้การประมวลผลนั้นทำได้รวดเร็วมาก เมื่อเทียบกับ Hadoop MapReduce ที่ใช้การอ่านเขียนข้อมูลที่เป็นไฟล์จาก disk
 
+## Streamlit
+
+Open-source Python library เอาไว้สร้าง data app (หรือ web app) สำหรับโปรเจค data
+science กับ machine learning เราไม่จำเป็นต้องเขียน front-end เลย ลองเข้าไปดูตัวอย่างได้ที่
+[Gallery](https://streamlit.io/gallery) ได้
+
 ## Superset
 
 https://superset.apache.org/
