@@ -1,4 +1,6 @@
-# Data Pipelines
+---
+title: Data Pipelines
+---
 
 ## รูปแบบในการสร้าง Data Pipeline
 
