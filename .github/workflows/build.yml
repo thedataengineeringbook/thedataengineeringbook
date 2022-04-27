@@ -1,0 +1,36 @@
+name: Deploy gh pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      ################################
+      # Setup node
+      ################################
+      - name: Setup node
+        uses: actions/setup-node@v3.1.0
+        with:
+          node-version: "16"
+          cache: "yarn"
+      - name: Install requirements
+        run: yarn install
+
+      ################################
+      # Build & deploy
+      ################################
+      - run: |
+          npm run build
+          echo "data-engineering-book.github.io" > build/CNAME
+
+      - name: Deploy site
+        with:
+          build-dir: build
+          deploy-branch: gh-pages
+        uses: NickSchimek/deploy_jamstack_action@main
