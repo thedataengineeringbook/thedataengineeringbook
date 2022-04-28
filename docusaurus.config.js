@@ -2,7 +2,7 @@
 module.exports = {
   title: "The Data Engineering Book",
   // tagline: 'The tagline of my site',
-  url: "https://data-engineering-book.github.io", // [TODO] change me
+  url: "https://data-engineering-book.karnwong.me", // [TODO] change me
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
