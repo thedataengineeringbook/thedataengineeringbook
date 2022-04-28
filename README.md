@@ -22,5 +22,6 @@ $ yarn start # http://localhost:3000
 
 ## todo
 - [ ] apply for official algolia docsearch: https://docusaurus.io/docs/search#using-algolia-docsearch
-- [ ] verify hostname for the site (currenly it's set to `data-engineering-book.github.io`)
+- [ ] verify hostname for the site (currenly it's set to `data-engineering-book.karnwong.me`) # for demo purpose only
+    - [ ] see github pages with custom domain
 - [ ] after merging this PR, need to enable github pages (the ci will publish static site artifacts to branch `gh-pages`)
