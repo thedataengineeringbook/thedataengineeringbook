@@ -2,6 +2,8 @@
 
 หนังสือ Data Engineering เพื่อ Data Engineer ชาวไทย 😎 (สายงานอื่นก็อ่านได้นะ)
 
+ดาวน์โหลด[ที่นี่](https://github.com/dataengineercafe/data-engineering-book/releases)
+
 ## Contents
 
 * [Introduction](sections/01-introduction.md)
