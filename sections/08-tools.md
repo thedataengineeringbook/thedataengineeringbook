@@ -65,6 +65,14 @@ https://debezium.io/
 
 https://druid.apache.org/
 
+## Fluentd
+
+Open source data collector for unified logging layer
+
+https://www.fluentd.org/
+
+* [How Fluentd simplifies collecting and consuming logs | Fluentd simply explained](https://www.youtube.com/watch?v=5ofsNyHZwWE)
+
 ## Google Cloud Storage
 
 https://cloud.google.com/storage
