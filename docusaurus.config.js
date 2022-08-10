@@ -2,7 +2,7 @@
 module.exports = {
   title: "The Data Engineering Book",
   // tagline: 'The tagline of my site',
-  url: "https://www.thedataengineeringbook.online/",
+  url: "https://thedataengineeringbook.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
