@@ -19,6 +19,7 @@ title: อภิธานศัพท์
 | Dashboard                       | แผงควบคุม, แดชบอร์ด                                                 |
 | Data                            | ข้อมูล                                                              |
 | Data Analytics                  | วิทยาการวิเคราะห์ข้อมูล                                                |
+| Data Architecture               | สถาปัตยกรรมข้อมูล                                                    |
 | Data Catalog                    | บัญชีข้อมูล                                                           |
 | Data Cleansing                  | การทำความสะอาดข้อมูล                                                |
 | Data Creator                    | ผู้สร้างข้อมูล                                                         |
@@ -38,6 +39,7 @@ title: อภิธานศัพท์
 | Data Mart                       | ตลาดข้อมูล, คลังข้อมูลขนาดเล็ก (ส่วนย่อยของคลังข้อมูล)                       |
 | Data Owner                      | เจ้าของข้อมูล                                                        |
 | Data Pipeline                   | ดาต้าไปป์ไลน์, สายท่อข้อมูล                                             |
+| Data Platform                   | แพลตฟอร์มสำหรับจัดการข้อมูล                                             |
 | Data Privacy                    | ความเป็นส่วนตัวของข้อมูล                                               |
 | Data Processing                 | การประมวลผลข้อมูล                                                   |
 | Data Quality                    | คุณภาพข้อมูล                                                         |
@@ -51,6 +53,7 @@ title: อภิธานศัพท์
 | Data Validation                 | การสอบทวนข้อมูล                                                     |
 | Data Warehouse                  | คลังข้อมูล, ฐานข้อมูลขนาดยักษ์                                           |
 | Database                        | ฐานข้อมูล                                                           |
+| Dataset                         | ชุดข้อมูล                                                           |
 | Deterministic                   | นิยัติ, ซึ่งถูกกำหนดไว้แล้ว                                               |
 | Disk                            | ดิสก์                                                               |
 | Distributed System              | ระบบกระจายศูนย์, ระบบแบบกระจาย                                      |
