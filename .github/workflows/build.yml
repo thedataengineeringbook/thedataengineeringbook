@@ -2,7 +2,7 @@ name: Deploy gh pages
 
 on:
   push:
-    branches: [docusaurus]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
