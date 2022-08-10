@@ -2,7 +2,7 @@ name: Deploy gh pages
 
 on:
   push:
-    branches: [docusaurus]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       ################################
       - run: |
           npm run build
-          echo "data-engineering-book.karnwong.me" > build/CNAME
+          echo "www.thedataengineeringbook.online" > build/CNAME
 
       - name: Deploy site
         with:
