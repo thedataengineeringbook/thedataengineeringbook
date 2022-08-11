@@ -27,6 +27,7 @@ jobs:
       ################################
       - run: |
           npm run build
+          echo "www.thedataengineeringbook.online" > build/CNAME
 
       - name: Deploy site
         with:
