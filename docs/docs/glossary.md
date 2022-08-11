@@ -46,7 +46,7 @@ title: อภิธานศัพท์
 | Data Scientist                  | นักวิทยาศาสตร์ข้อมูล                                                   |
 | Data Security                   | การรักษาความปลอดภัยของข้อมูล                                          |
 | Data Source                     | แหล่งข้อมูล                                                          |
-| Data Steward                    | บริกรข้อมูล                                                          |
+| Data Steward                    | บริกรข้อมูล, ผู้เชี่ยวชาญข้อมูล, ผู้ประสานงานข้อมูล                            |
 | Data Structure                  | โครงสร้างข้อมูล                                                      |
 | Data Transformation             | การแปลงข้อมูล                                                       |
 | Data User                       | ผู้ใช้ข้อมูล                                                           |
