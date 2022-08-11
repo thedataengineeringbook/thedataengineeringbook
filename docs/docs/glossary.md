@@ -22,6 +22,7 @@ title: อภิธานศัพท์
 | Data Architecture               | สถาปัตยกรรมข้อมูล                                                    |
 | Data Catalog                    | บัญชีข้อมูล                                                           |
 | Data Cleansing                  | การทำความสะอาดข้อมูล                                                |
+| Data Controller                 | ผู้ควบคุมข้อมูล                                                        |
 | Data Creator                    | ผู้สร้างข้อมูล                                                         |
 | Data Custodian                  | ผู้ปกป้องรักษาข้อมูล, ผู้ดูแลข้อมูลด้านเทคนิค                                  |
 | Data Dictionary                 | พจนานุกรมข้อมูล                                                      |
@@ -42,6 +43,8 @@ title: อภิธานศัพท์
 | Data Platform                   | แพลตฟอร์มสำหรับจัดการข้อมูล                                             |
 | Data Privacy                    | ความเป็นส่วนตัวของข้อมูล                                               |
 | Data Processing                 | การประมวลผลข้อมูล                                                   |
+| Data Processor                  | ผู้ประมวลผลข้อมูล                                                     |
+| Data Protection                 | การคุ้มครองข้อมูล                                                     |
 | Data Quality                    | คุณภาพข้อมูล                                                         |
 | Data Scientist                  | นักวิทยาศาสตร์ข้อมูล                                                   |
 | Data Security                   | การรักษาความปลอดภัยของข้อมูล                                          |
