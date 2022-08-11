@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "The Data Engineering Book",
-  // tagline: 'The tagline of my site',
+  tagline: "หนังสือวิศวกรรมข้อมูล ของคนไทย เพื่อคนไทย",
   url: "https://www.thedataengineeringbook.online",
   baseUrl: "/",
   onBrokenLinks: "throw",
