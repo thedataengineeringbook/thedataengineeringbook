@@ -8,6 +8,11 @@ $ yarn install
 $ yarn start # http://localhost:3000
 ```
 
+## Run in Docker
+```sh
+$ docker compose up -d # http://localhost:80
+```
+
 ## อยากช่วยเขียน?
 
 ยินดีมากเลย ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)

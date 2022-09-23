@@ -19,3 +19,7 @@ title: Data Engineering Roadmap
 * Big Data Platforms
 * Batch Processing
 * Real-Time Processing
+
+## Overview
+
+[!["Roadmap"](https://github.com/datastacktv/data-engineer-roadmap/raw/master/img/roadmap.png)](https://github.com/datastacktv/data-engineer-roadmap)
