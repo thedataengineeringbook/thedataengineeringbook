@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  dataengbook:
+    container_name: dataengbook
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./docs:/app/docs

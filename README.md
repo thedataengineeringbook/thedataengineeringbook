@@ -9,8 +9,13 @@ $ yarn start # http://localhost:3000
 ```
 
 ## Run in Docker
+* Production (static)
 ```sh
-$ docker compose up -d # http://localhost:80
+$ docker compose -f docker-compose.prod.yml up -d # http://localhost:80
+```
+* Dev (live reload)
+```sh
+$ docker compose -f docker-compose.dev.yml up -d # http://localhost:3000
 ```
 
 ## อยากช่วยเขียน?

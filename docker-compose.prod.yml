@@ -2,9 +2,9 @@ version: "3.9"
 
 services:
   web:
-    image: dataengbook
+    container_name: dataengbook_prod
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     ports:
       - "80:80"
