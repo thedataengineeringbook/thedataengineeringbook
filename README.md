@@ -8,6 +8,12 @@ $ yarn install
 $ yarn start # http://localhost:3000
 ```
 
+## Run in Docker
+```sh
+$ docker compose up # http://localhost:3000
+```
+ปล. หากมีการแก้ไข `sidebar.js` ต้องทำการ build image และสร้าง container ใหม่
+
 ## อยากช่วยเขียน?
 
 ยินดีมากเลย ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)

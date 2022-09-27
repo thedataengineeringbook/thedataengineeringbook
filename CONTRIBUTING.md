@@ -10,4 +10,12 @@
 1. สั่ง Push เข้าไปที่ Branch (`git push origin feature/fooBar`)
 1. เปิด Pull Request
 
+## ขั้นตอนการตรวจไฟล์ก่อนจะ commit (pre-commit)
+
+1. Install [pre-commit]('https://pre-commit.com/)
+1. Run `pre-commit install` on this Repo
+1. Run `pre-commit run --all-files`
+
+ปล. โดยปกติแล้วเวลา `git commit -m "$MESSAGE"` จะไป trigger ให้ pre-commit ทำงาน
+
 มาร่วมสร้างหนังสือ Data Engineering สำหรับชาวไทยทุกคนกันนะครับ 😉
