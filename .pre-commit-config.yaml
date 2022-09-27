@@ -16,4 +16,3 @@ repos:
   - id: detect-private-key
   - id: fix-byte-order-marker
   - id: mixed-line-ending
-  
