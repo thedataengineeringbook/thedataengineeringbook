@@ -29,6 +29,7 @@ title: อภิธานศัพท์
 | Data Engineer                   | วิศวกรข้อมูล                                                         |
 | Data Engineering                | วิศวกรรมข้อมูล                                                       |
 | Data Entry                      | การบันทึกข้อมูล, การป้อนข้อมูลเข้าไปเก็บในสื่อ                               |
+| Data Exploration                | การสำรวจข้อมูล                                                      |
 | Data Extraction                 | การสกัดข้อมูล, การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ                             |
 | Data Governance                 | ธรรมาภิบาลข้อมูล, การกำกับดูแลข้อมูล                                     |
 | Data Infrastructure             | โครงสร้างพื้นฐานข้อมูล                                                 |
