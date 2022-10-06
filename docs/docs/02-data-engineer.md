@@ -64,8 +64,8 @@ Data Engineer นั้นควรที่จะต้องสามารถ
 
 ### Platform engineering
 
-Data platform engineer อาจจะไม่ได้ transform ข้อมูล แต่มีหน้าที่ในการสร้างระบบ data platform ให้สามารถใช้งานได้จริง และ scale ได้ หลักๆ จะทำงานกับ database, networking, cloud permissions รวมถึงมีการคุยกันเรื่อง architecture ด้วย เพื่อที่จะได้สร้างระบบที่ตอบโจทย์ผู้ใช้ ซึ่งอาาจะเป็นแค่ data team หรือทุกทีมในบริษัทที่ต้องมีการเข้าถึงข้อมูล
+Data platform engineer อาจจะไม่ได้ transform ข้อมูล แต่มีหน้าที่ในการสร้างระบบ data platform ให้สามารถใช้งานได้จริง และ scale ได้ หลักๆ จะทำงานกับ database, networking, cloud permissions รวมถึงมีการคุยกันเรื่อง architecture ด้วย เพื่อที่จะได้สร้างระบบที่ตอบโจทย์ผู้ใช้ ซึ่งอาจจะเป็นแค่ data team หรือทุกทีมในบริษัทที่ต้องมีการเข้าถึงข้อมูล
 
 ### GUI-based solutions
 
-Data engineer ในกลุ่มนี้ จะใช้เครื่องมือที่ไม่จำเป็นต้องเขียน sql หรือ python ก็คือคลิกผ่านหน้า UI แล้วเลือกว่าจะทำอะไรกับข้อมูล เช่น Talend, AWS Glule, Azure Data Factory
+Data engineer ในกลุ่มนี้ จะใช้เครื่องมือที่ไม่จำเป็นต้องเขียน SQL หรือ Python ก็คือคลิกผ่านหน้า UI แล้วเลือกว่าจะทำอะไรกับข้อมูล เช่น Talend, AWS Glue, Azure Data Factory
