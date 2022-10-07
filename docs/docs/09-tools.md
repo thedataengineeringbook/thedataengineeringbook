@@ -153,6 +153,14 @@ https://rapidminer.com/
 
 https://www.snowflake.com/
 
+## Soda Core
+
+https://www.soda.io/core
+
+Soda Core เป็นเครื่องมือ open source ที่ช่วยเรื่อง data reliability มีทั้งแบบ CLI และ Python library เราสามารถที่จะเอามาใช้ตรวจสอบคุณภาพของข้อมูลใน data pipeline หรือในระบบ data observability ของเราได้
+
+จะมีเครื่องมืออีกตัวหนึ่งที่ชื่อว่า [Soda Checks Language (SodaCL)](https://docs.soda.io/soda-cl/soda-cl-overview.html) ที่สร้างขึ้นมาบนตัว Soda Core อีกที โดยเราจะสามารถเขียนภาษาที่เป็น domain-specific language (DSL) ที่ถูกออกแบบมาเน้นให้ human-readable เพื่อที่ต้องการจะให้ใครก็ตามในองค์กรสามารถตรวจสอบคุณภาพของข้อมูลได้ด้วยตัวเอง
+
 ## Spark
 
 https://spark.apache.org/
