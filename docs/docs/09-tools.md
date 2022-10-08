@@ -149,7 +149,6 @@ https://pulsar.apache.org/
 
 https://rapidminer.com/
 
-
 ## Redash 
 
 https://redash.io/
