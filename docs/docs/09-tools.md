@@ -149,6 +149,14 @@ https://pulsar.apache.org/
 
 https://rapidminer.com/
 
+
+## Redash 
+
+https://redash.io/
+
+Redash เป็นเครื่องมือสำหรับการทำ dashboard/visualize data ใช้งานผ่าน browser สามารถจัดการ data source ผ่าน Query Editor รองรับ data source ทั้ง SQL และ NoSQL
+มีระบบ Alert และ Schedule refreshes คอยช่วย update data ให้เป็น up-to-date
+
 ## Snowflake
 
 https://www.snowflake.com/
