@@ -39,6 +39,12 @@ https://azure.microsoft.com/services/storage/blobs
 
 Azure Blob Storage เป็นพื้นที่จัดเก็บไฟล์บนคลาวด์ของทาง Microsoft Azure ที่เหมาะสำหรับ Unstructured data โดยเฉพาะ
 
+## [Dash](https://dash.plotly.com/)
+
+https://github.com/plotly/dash
+
+Dash เป็น Open Source Framework ในการทำ Dashboard Visualization ในรูปแบบ Web App สร้าวขึ้นบน `plotly.js`, `React` และ `Flask` ดังนั้น Dash จึงเหมาะสมสำหรับชาว Data ที่อาจจะไม่ได้เขียนเว็บมาก่อน ตัว Dash จึงเป็น python framework ที่คอยจัดการ Web App ให้ โดยสร้างขึ้นมาจากทีมงานเดียวกับ plotly
+
 ## Dataprep
 
 https://cloud.google.com/dataprep
