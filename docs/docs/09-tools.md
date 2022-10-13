@@ -71,6 +71,8 @@ https://debezium.io/
 
 ## Docker
 
+Docker เป็นแพลตฟอร์มซอฟต์แวร์ที่แยกแอพพลิเคชั่นของคุณออกจากกัน โดยการเรียกใช้งานพวกมันในส่วนเฉพาะที่เรียกว่า Container โดย Docker Container จะมีส่วนที่คล้ายกันกับ Virtual Machine (VM) เพียงเล็กน้อย ตรงที่มันจะแยก Content ของมันออกจากซอฟต์แวร์อื่น ๆ ที่กำลังทำงานอยู่ในเครื่อง
+
 https://www.docker.com/
 
 Documentation: https://docs.docker.com/
