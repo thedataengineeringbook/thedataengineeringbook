@@ -14,6 +14,7 @@ title: Resources
 - The Data Warehouse Toolkit - Ralph Kimball & Margy Ross
 - Data Science for Business - Foster Provost & Tom Fawcett
 - Practical Statistics for Data Scientists - Peter Gedeck & Peter Bruce & Andrew Bruce
+- 97 Things Every Data Engineer Should Know - Tobias Macey
 
 ### Software engineering
 
