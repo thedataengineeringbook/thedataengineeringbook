@@ -155,6 +155,8 @@ https://www.orchest.io/
 
 https://pulsar.apache.org/
 
+Apache Pulsar คือ cloud-native, multi-tenant, high-performance solution สำหรับส่งข้อความแบบ server-to-server และการจัดคิวที่สร้างขึ้นบน publisher-subscribe (pub-sub) pattern โดย Pursar ผสมผสานคุณสมบัติที่ดีที่สุดของระบบการส่งข้อความแบบดั้งเดิม เช่น RabbitMQ เข้ากับระบบ pub-sub เช่น Apache Kafka ซึ่งเพิ่มหรือลดขนาดแบบไดนามิกโดยไม่ต้องหยุดทำงาน
+
 ## RapidMiner
 
 https://rapidminer.com/
