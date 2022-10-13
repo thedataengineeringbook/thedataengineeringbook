@@ -125,6 +125,8 @@ https://kubernetes.io/
 
 Documentation: https://kubernetes.io/docs/home/
 
+Kubernetes หรือที่เรียกว่า K8s เป็นแพลตฟอร์มแบบ Open-source สำหรับช่วยให้การปฏิบัติงานต่างๆ ที่เกี่ยวข้องกับ Linux Container สามารถทำได้โดยอัตโนมัติ ลดกระบวนการติดตั้งหรือขยายแอปพลิเคชันที่รันบน Container ที่นักพัฒนาต้องลงมือทำด้วยตนเองให้เหลือน้อยที่สุด
+
 ## Logstash
 
 https://www.elastic.co/logstash/
