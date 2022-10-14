@@ -201,3 +201,5 @@ science กับ machine learning เราไม่จำเป็นต้อ
 ## Superset
 
 https://superset.apache.org/
+
+Apache Superset เป็นโปรแกรม Visualization Tools/Business Intelligence ที่มีข้อดีคือใหม่และมีความเป็น Developer-based สูงมาก เนื่องจากเป็นโปรแกรมที่ใช้เชื่อมกับ Service ของ Big Data ต่างๆ เช่น Cloud Database, Data Warehouse เป็นต้น
