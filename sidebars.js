@@ -8,6 +8,7 @@ module.exports = {
     "docs/data-pipelines",
     "docs/data-validation-in-pipelines",
     "docs/maintenance-of-data-pipelines",
+    "docs/data-warehouse",
     "docs/tools",
     "docs/resources",
     "docs/glossary",
