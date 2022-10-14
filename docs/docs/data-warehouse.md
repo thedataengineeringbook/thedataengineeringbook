@@ -43,18 +43,18 @@ title: Data Warehouse
 
 ### Data Warehouse Architecture
 
-![Kimball vs. Inmon](./kimball-vs-inmon.png)
+![Kimball vs. Inmon](./img/kimball-vs-inmon.png)
 
 #### Kimball
 
 เค้าจะเรียกว่า Dimensional Data Warehouse จะเป็นการนำข้อมูลจาก source เอามา denormalize ก่อน หรือทำข้อมูลให้ flat ซึ่งหลาย ๆ คนน่าจะรู้จักกันในชื่อ star schema หรือ snowflake schema นั่นเอง
 
-##### ข้อดี
+**ข้อดี**
 
 - Reporting เร็ว เพราะว่าข้อมูลค่อนข้าง flat แล้ว ไม่ค่อยมีการ join กันระหว่าง table ทำให้ query เร็ว
 - User friendly ด้วย โดยเฉพาะฝั่ง business เพราะว่าการมี denormalized form นั้นทำให้เราไม่ต้องมานั่งดูว่ามี tables อะไรบ้างที่มีความสัมพันธ์ต่อกัน และต้องเอามา join กันท่าไหน
 
-##### ข้อเสีย
+**ข้อเสีย**
 
 - เราอาจจะได้ complex ETL เพราะการที่จะ denormalize ได้ เราก็ต้องไป join กันหลาย ๆ tables และต้องคอยดูแลบำรุงรักษา ETL ของเราไปเรื่อย ๆ
 - เกิด data duplication ในหลาย ๆ data marts (ในกรณีที่เราแยกออกไปทำ star หรือ snowflake schema ให้ในแต่ละ business unit) และจะเริ่มเสียความเป็น single source of truth ไป ถ้าจัดการได้ไม่ดี
@@ -64,18 +64,18 @@ title: Data Warehouse
 
 เค้าจะเรียกกันว่า Enterprise Data Warehouse เป็นการนำข้อมูลจาก source เอามา clean ก่อน เสร็จแล้วเก็บใน data warehouse และเก็บอยู่ในรูป normalized form เวลาจะยกไปที่ data marts ตาม business unit ต่าง ๆ เราก็ยกไปเฉพาะข้อมูลที่จะใช้สำหรับ business unit นั้น ๆ หรือให้ business unit นั้น ๆ เข้าถึงข้อมูล หรือ table เฉพาะที่เค้าจะใช้งาน
 
-##### ข้อดี
+**ข้อดี**
 
 - ข้อมูล cleaned และเป็น single source of truth แน่นอนเลย ตรงนี้ใช้ storage น้อยกว่า Kimball และ less data duplication
 - มี normalized data structure เลยสามารถทำ analysis แบบไหนก็ได้
 - ข้อมูลต่าง ๆ ในองค์กรที่อยู่ใน data warehouse จะค่อนข้างครบ เพราะเอาเข้ามาง่าย ไม่ต้องมา denormalize ก่อน
 
-##### ข้อเสีย
+**ข้อเสีย**
 
-- Reporting จะช้าาาา เพราะว่ามีการ join เยอะ เนื่องจากข้อมูลอยู่ในรูปแบบ normalized form
+- Reporting จะช้า เพราะว่ามีการ join เยอะ เนื่องจากข้อมูลอยู่ในรูปแบบ normalized form
 - เกิด isolated data marts ทำให้เวลาเราอยากจะเปรียบเทียบข้อมูลกันระหว่าง 2 business units หรือ departments จะทำได้ลำบาก หรือถ้าอยากทำจริง ๆ ก็อาจจะต้องสร้างอีก mart หนึ่งมาเพื่อเปรียบเทียบข้อมูลกัน
 
-สุดท้ายเราจะใช้แบบไหนดี?
+*สุดท้ายเราจะใช้แบบไหนดี?*
 
 ในงานจริง ๆ เราไม่สามารถไปจะไปทางใดทางหนึ่งได้เลย โจทย์แต่ละแบบก็ต้องการวิธีแก้ปัญหาที่แตกต่างกัน สุดท้ายถ้าเราสามารถเลือกในแบบที่เราสามารถ maximize business value ได้ก็จะดีที่สุดแล้ว
 
