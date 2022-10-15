@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  dataengbook:
+    container_name: dataengbook
+    build:
+      context: .
+      dockerfile: Dockerfile.with-search
+    ports:
+      - "3000:80"
