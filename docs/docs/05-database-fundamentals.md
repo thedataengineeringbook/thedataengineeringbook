@@ -8,8 +8,8 @@ Structured Query Language (SQL) คือคำสั่งบริหารจ
 
 โดย SQL commands สามารถแบ่งได้เป็น 4 ประเภท คือ
 * [DDL – Data Definition Language](#11-ddl-data-definition-language)
-* DQL – Data Query Language
-* DML – Data Manipulation Language
+* [DQL – Data Query Language](#12-dql-data-query-language)
+* [DML – Data Manipulation Language](#13-dml-data-manipulation-language)
 * [DCL – Data Control Language](#14-dcl-data-control-language)
 
 ปล. บางที่เพิ่ม TCL – Transaction Control Language เป็นประเภทที่ 5
@@ -70,6 +70,69 @@ RENAME COLUMN old_name TO new_name;
 
 ```sql
 TRUNCATE TABLE table_name;
+```
+
+### [1.2] DQL (Data Query Language)
+
+เป็นกลุ่มคำสั่งสำหรับช่วยในการเรียกค้นข้อมูลที่อยู่ใน Schema objects ต่าง ๆ เช่น ตาราง(Table), วิว (View) เป็นต้น โดยคำสั่งประเภท DQL จะใช้เพื่อเรียกค้นข้อมูลตามความสัมพันธ์ทางโครงสร้าง(Schema Relation) โดยอาศัยการส่งข้อกำหนดของการค้นหาที่เรียกว่า Query
+
+โดยเราจะใช้คำสั่ง SELECT เพื่อเรียกค้นข้อมูล โดยอาจจะอิงกับตารางเดียวหรือหลาย ๆ ตาราง ผลลัพท์จะถูกเก็บไว้ในลักษณะตารางชั่วคราว ซึ่งมักจะเอาไปแสดงผลหรือส่งไปยังโปรแกรมเพื่อไปใช้งานต่อไป
+
+#### Syntax
+```sql
+SELECT expression FROM table_name WHERE code_conditions;
+```
+
+#### ตัวอย่าง
+```sql
+SELECT first_name FROM customer WHERE phone = '0891234567';
+```
+* คำสั่งนี้หมายถึงให้ดึงข้อมูล first_name จากตาราง customer ที่มี phone เท่ากับ 0891234567
+
+### [1.3] DML (Data Manipulation Language)
+เป็นกลุ่มคำสั่งที่ใช้ในการเพิ่ม (insert) ลบ(delete) และแก้ไข(update) ข้อมูลในฐานข้อมูล โดยหน้าที่หลักของกลุ่มคำสั่งนี้คือการปรับปรุงข้อมูลนั้นเอง โดยมีคำสั่งดังนี้
+
+* INSERT INTO: คำสั่งสำหรับเพิ่มข้อมูลลงในฐานข้อมูล
+```sql
+INSERT INTO table_name (column_1, column_2, …. column_N)
+VALUES (value_1, value_2, …. value_N);
+```
+
+หรือ
+
+```sql
+INSERT INTO table_name
+VALUES (value_1, value_2, …. value_N);
+```
+
+#### ตัวอย่าง
+```sql
+INSERT INTO customer (first_name, last_name, phone)
+VALUES ('John', 'Farmer','0891234567');
+```
+
+* UPDATE: คำสั่งสำหรับเพิ่มข้อมูลลงในฐานข้อมูล
+#### Syntax
+```sql
+UPDATE table_name
+SET column_1 = value_1, column_2 = value_2, column_N = value_N [WHERE condition];
+```
+#### ตัวอย่าง
+```sql
+UPDATE customer
+SET first_name = 'Tiger' WHERE phone = '0891234567';
+```
+
+* DELETE: คำสั่งสำหรับลบข้อมูลออกจากฐานข้อมูล มักใช้คู่กับคำสั่ง WHERE เพราะกำหนดเงื่อนไขในการลบ
+
+#### Syntax
+```sql
+DELETE FROM table_name [WHERE condition];
+```
+
+#### ตัวอย่าง
+```sql
+DELETE FROM customer WHERE phone = '0891234567';
 ```
 
 ### [1.4] DCL (Data Control Language)
