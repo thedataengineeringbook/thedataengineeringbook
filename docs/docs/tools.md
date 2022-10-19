@@ -167,7 +167,7 @@ Apache Pulsar คือ cloud-native, multi-tenant, high-performance solution �
 
 https://rapidminer.com/
 
-## Redash 
+## Redash
 
 https://redash.io/
 
