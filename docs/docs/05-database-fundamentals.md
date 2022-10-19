@@ -94,7 +94,7 @@ SELECT first_name FROM customer WHERE phone = '0891234567';
 
 * INSERT INTO: คำสั่งสำหรับเพิ่มข้อมูลลงในฐานข้อมูล
 ```sql
-INSERT INTO table_name (column_1, column_2, …. column_N)
+INSERT INTO table_name (column_1, column_2, …, column_N)
 VALUES (value_1, value_2, …, value_N);
 ```
 
