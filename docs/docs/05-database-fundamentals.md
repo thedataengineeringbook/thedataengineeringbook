@@ -102,7 +102,7 @@ VALUES (value_1, value_2, …. value_N);
 
 ```sql
 INSERT INTO table_name
-VALUES (value_1, value_2, …. value_N);
+VALUES (value_1, value_2, …, value_N);
 ```
 
 #### ตัวอย่าง
