@@ -108,7 +108,7 @@ VALUES (value_1, value_2, …. value_N);
 #### ตัวอย่าง
 ```sql
 INSERT INTO customer (first_name, last_name, phone)
-VALUES ('John', 'Farmer','0891234567');
+VALUES ('John', 'Farmer', '0891234567');
 ```
 
 * UPDATE: คำสั่งสำหรับเพิ่มข้อมูลลงในฐานข้อมูล
