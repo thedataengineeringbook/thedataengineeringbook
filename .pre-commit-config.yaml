@@ -20,3 +20,18 @@ repos:
     hooks:
       - id: prettier
         types_or: [css, javascript]
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.31.1
+    hooks:
+      - id: markdownlint
+        args: ["--ignore", "node_modules", "--ignore", "src", "--fix", "--disable", "MD013"]
+  - repo: https://github.com/asottile/blacken-docs
+    rev: v1.12.1
+    hooks:
+      - id: blacken-docs
+        additional_dependencies: [black==22.6.0]
+  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
+    rev: 0.2.1
+    hooks:
+      - id: yamlfmt
+        args: [--mapping, "2", --sequence, "4", --offset, "2", --width, "150", --preserve-quotes]
