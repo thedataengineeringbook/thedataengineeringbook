@@ -90,7 +90,7 @@ module.exports = {
           tagsBoost: 3,
           parentCategoriesBoost: 2,
         },
-      }
-    ]
-  ]
+      },
+    ],
+  ],
 };
