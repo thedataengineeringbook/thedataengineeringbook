@@ -153,6 +153,12 @@ https://www.elastic.co/kibana/
 
 Kibana คือ เครื่องมือแสดงข้อมูลด้วยภาพและสำรวจข้อมูลที่ใช้สำหรับการวิเคราะห์บันทึกและอนุกรมเวลา เป็น web UI ที่เชื่อมต่อกับ [Elasticsearch](##-Elasticsearch) และ [Logstash](##-Logstash) จึงเป็นเครื่องมือที่นิยมใช้ในการวิเคราะห์ Log สามารถสร้าง dashboard จากข้อมูลใน Elasticsearch ได้
 
+## Knime
+
+https://www.knime.com/
+
+Knime คือ เครื่องมือใช้สำหรับการทำ end-to-end data science มีลักษณะคล้ายคลึงกับ [RapidMiner](##-RapidMiner) เช่น การเรียนรู้เครื่อง การเรียนรู้ลึก การทำเหมืองข้อมูล การวิเคราะห์การทำนาย (Predictive analysis) และการแปลผล นอกจากนั้นยังสามารถใช้ในการทำ Data mining (ขุดข้อมูล) และ Machine learning ซึ่งรวมไปถึงการโหลดและการแปลงข้อมูล (ETL) การประมวลผลล่วงหน้าและการวาดภาพจากข้อมูล การวิเคราะห์เชิงพยากรณ์และการสร้างแบบจำลองทางสถิติ การประเมินผลและการปรับใช้ ต่างๆ ทั้งยังมี Graphical User Interface (GUI) ที่เข้าใจง่ายผ่านการทำงานแบบ workflow diagram และสามารถเขียน code เพิ่มเติม ผ่านการทำงานแบบ customize workflow node ได้เช่นกัน
+
 ## Kubernetes
 
 https://kubernetes.io/
