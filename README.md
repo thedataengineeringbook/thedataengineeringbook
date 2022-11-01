@@ -24,18 +24,6 @@ $ docker compose up # http://localhost:3000
 
 ปล. หากมีการแก้ไข `sidebar.js` ต้องทำการ build image และสร้าง container ใหม่
 
-## Run in Docker พร้อมกับ Search Functionality
-
-```sh
-$ docker compose -f docker-compose.with-search.yml up # http://locahost:3000
-```
-
-ป.ล. หากมีการแก้ไขไฟล์ docs/\*.md จะต้อง build index ใหม่ ด้วยคำสั่ง
-
-```sh
-$ docker compose -f docker-compose.with-search.yml build
-```
-
 ## อยากช่วยเขียน?
 
 ยินดีมากเลย ทำตามนี้นะครับ 👉🏻 [Contributing to Data Engineering Book](CONTRIBUTING.md)

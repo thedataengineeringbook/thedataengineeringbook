@@ -44,11 +44,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Data Engineer Cafe. Built with Docusaurus.`,
     },
-    // algolia: {
-    //   apiKey: "$API_KEY",
-    //   indexName: "docusaurus-2",
-    //   appId: "$APP_ID",
-    // },
+    algolia: {
+      apiKey: "43a7a2b6a4b486f0beeffbbe0fe7a6bd",
+      indexName: "thedataengineeringbook",
+      appId: "WNGK72LQW1",
+    },
     prism: {
       theme: require("prism-react-renderer/themes/okaidia"),
       darkTheme: require("prism-react-renderer/themes/vsLight"),
@@ -71,24 +71,6 @@ module.exports = {
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,
-        },
-      },
-    ],
-  ],
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        language: "th",
-        maxSearchResults: 10,
-        lunr: {
-          b: 0.75,
-          k1: 1.2,
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-          parentCategoriesBoost: 2,
         },
       },
     ],
