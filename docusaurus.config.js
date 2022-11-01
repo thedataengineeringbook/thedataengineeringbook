@@ -75,22 +75,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        language: "th",
-        maxSearchResults: 10,
-        lunr: {
-          b: 0.75,
-          k1: 1.2,
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-          parentCategoriesBoost: 2,
-        },
-      },
-    ],
-  ],
 };
