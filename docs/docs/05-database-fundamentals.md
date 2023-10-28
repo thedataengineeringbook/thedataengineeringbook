@@ -2,21 +2,21 @@
 title: Database Fundamentals
 ---
 
-## [1] SQL
+## SQL
 
 Structured Query Language (SQL) คือคำสั่งบริหารจัดการฐานข้อมูล (Database) โดยเฉพาะ Relational Database เช่น Oracle, MySQL, PostgreSQL, BigQuery เป็นต้น
 
 โดย SQL commands สามารถแบ่งได้เป็น 4 ประเภท คือ
-* [DDL – Data Definition Language](#11-ddl-data-definition-language)
-* [DQL – Data Query Language](#12-dql-data-query-language)
-* [DML – Data Manipulation Language](#13-dml-data-manipulation-language)
-* [DCL – Data Control Language](#14-dcl-data-control-language)
+* [DDL – Data Definition Language](#ddl-data-definition-language)
+* [DQL – Data Query Language](#dql-data-query-language)
+* [DML – Data Manipulation Language](#dml-data-manipulation-language)
+* [DCL – Data Control Language](#dcl-data-control-language)
 
-ปล. บางที่เพิ่ม TCL – Transaction Control Language เป็นประเภทที่ 5
+ปล. บางที่เพิ่ม [TCL – Transaction Control Language](#tcl-transaction-control-language) เป็นประเภทที่ 5
 
 !["fig1"](https://media.geeksforgeeks.org/wp-content/uploads/20210920153429/new.png)
 
-### [1.1] DDL (Data Definition Language)
+### DDL (Data Definition Language)
 
 เป็นกลุ่มคำสั่งที่เอาไว้กำหนด database structure เช่น การสร้าง ลบ database schema
 
@@ -72,7 +72,7 @@ RENAME COLUMN old_name TO new_name;
 TRUNCATE TABLE table_name;
 ```
 
-### [1.2] DQL (Data Query Language)
+### DQL (Data Query Language)
 
 เป็นกลุ่มคำสั่งสำหรับช่วยในการเรียกค้นข้อมูลที่อยู่ใน Schema objects ต่าง ๆ เช่น ตาราง (Table), วิว (View) เป็นต้น โดยคำสั่งประเภท DQL จะใช้เพื่อเรียกค้นข้อมูลตามความสัมพันธ์ทางโครงสร้าง (Schema Relation) โดยอาศัยการส่งข้อกำหนดของการค้นหาที่เรียกว่า Query
 
@@ -89,7 +89,7 @@ SELECT first_name FROM customer WHERE phone = '0891234567';
 ```
 * คำสั่งนี้หมายถึงให้ดึงข้อมูล first_name จากตาราง customer ที่มี phone เท่ากับ 0891234567
 
-### [1.3] DML (Data Manipulation Language)
+### DML (Data Manipulation Language)
 เป็นกลุ่มคำสั่งที่ใช้ในการเพิ่ม (insert) ลบ (delete) และแก้ไข (update) ข้อมูลในฐานข้อมูล โดยหน้าที่หลักของกลุ่มคำสั่งนี้คือการปรับปรุงข้อมูลนั้นเอง โดยมีคำสั่งดังนี้
 
 * INSERT INTO: คำสั่งสำหรับเพิ่มข้อมูลลงในฐานข้อมูล
@@ -135,7 +135,7 @@ DELETE FROM table_name [WHERE condition];
 DELETE FROM customer WHERE phone = '0891234567';
 ```
 
-### [1.4] DCL (Data Control Language)
+### DCL (Data Control Language)
 เป็นกลุ่มคำสั่งที่จะช่วยให้ผู้บริหารฐานข้อมูล (DBA)
 สามารถควบคุมฐานข้อมูลเพื่อ *กำหนดสิทธิการอนุญาต* (Grant)  หรือ *การยกเลิกการเข้าใช้* (Revoke) ฐานข้อมูล ซึ่งเป็นกระบวนการป้องกันความปลอดภัยในฐานข้อมูล
 
@@ -167,3 +167,53 @@ privileges_names ที่ GRANT หรือ REVOKE ได้
 |      ALL      | grant all permission except GRANT OPTION                      |
 |     UPDATE    | update statement on tables                                    |
 |     GRANT     | allow to grant the privilege that                             |
+
+### TCL (Transaction Control Language)
+
+เป็นคำสั่งสำหรับช่วยในการจัดการ กลุ่ม(Set) ของคำสั่งประเภท DML หรือที่เราเรียกว่า Transaction โดยเราใช้ TCL ในการควบคุมหรือใส่เงื่อนไขในการขั้นตอนการเปลี่ยนแปลงข้อมูล
+
+* COMMIT: เป็นคำสั่งในการยืนยันการเปลี่ยนแปลงข้อมูลใน Transactions
+
+#### Syntax
+```sql
+COMMIT;
+```
+
+#### ตัวอย่าง
+```sql
+UPDATE customer SET phone = '0811234567' WHERE first_name = 'Tiger';
+DELETE FROM customer WHERE phone = '0891234567';
+COMMIT;
+```
+
+* ROLLBACK: เป็นคำสั่งในการยกเลิกการเปลี่ยนแปลงข้อมูลทั้งหมดใน Transactions
+
+#### Syntax
+```sql
+ROLLBACK;
+```
+
+#### ตัวอย่าง
+```sql
+UPDATE customer SET phone = '0811234567' WHERE first_name = 'Tiger';
+DELETE FROM customer WHERE phone = '0891234567';
+ROLLBACK;
+```
+
+* SAVEPOINT: เป็นคำสั่งในการกำหนดจุดในระหว่าง Transactions สามารถใช้คู่กับคำสั่ง ROLLBACK เพื่อกลับมาในจุดที่ต้องการได้
+
+#### Syntax
+```sql
+SAVEPOINT Name_of_Savepoint;
+-- &
+ROLLBACK TO Name_of_Savepoint;
+```
+
+#### ตัวอย่าง
+```sql
+UPDATE customer SET phone = '0811234567' WHERE first_name = 'Tiger';
+SAVEPOINT Update_Customer;
+
+DELETE FROM customer WHERE phone = '0891234567';
+ROLLBACK TO Update_Customer;
+```
