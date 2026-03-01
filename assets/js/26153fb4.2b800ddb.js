@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfringe_division=self.webpackChunkfringe_division||[]).push([[5],{7085:function(e){e.exports=JSON.parse('{"plugin":{"name":"docusaurus-theme-search-algolia","id":"default"}}')}}]);
