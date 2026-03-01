@@ -155,7 +155,7 @@ REVOKE privileges_names ON object FROM user;
 
 privileges_names ที่ GRANT หรือ REVOKE ได้
 
-| **Privilege** |                         **Desciption**                        |
+| **Privilege** |                         **Description**                        |
 |:-------------:|:-------------------------------------------------------------:|
 |     SELECT    | select statement on tables                                    |
 |     INSERT    | insert statement on tables                                    |
